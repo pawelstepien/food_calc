@@ -1,0 +1,11 @@
+.navigation {
+    .links-list {
+        margin: 10px auto;
+        min-width: 300px;
+        max-width: 450px;
+        list-style: none;
+        padding: 0;
+        display: flex;   
+        justify-content: space-around;
+    }
+}
