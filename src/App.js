@@ -14,7 +14,7 @@ import Food from './templates/Food/Food';
 function App() {
     return (
         <Router>
-            <div>
+            <div className="app-wrapper">
                 <Navigation />
                 <Switch>
                     <Route path="/balance">

@@ -1,0 +1,26 @@
+$myVar: red;
+.meals-list-legend {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 5px 0;
+    min-width: 300px;
+    
+    .meal-name {
+        width: 25%;
+    }
+    .meal-nutrients {
+        display: flex;
+        justify-content: flex-end;
+        width: 55%;
+        font-size: 12px;
+        
+        .meal-nutrients-item {
+            text-align: right;
+            width: 25%;
+        }
+    }
+}
+.meals-list {
+    list-style: none;
+}
